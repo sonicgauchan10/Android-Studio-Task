@@ -1,0 +1,14 @@
+package com.example.first
+
+fun main() {
+    var number1: Int = 5
+    var number2: Int = 8
+    var number3: Int = 12
+    var result: Boolean = false
+    // Conditional operator (&&) - AND
+    result = (number1 > number2) && (number3 > number2)
+    println("(number1 > number2) && (number3 > number2): $result")
+    // Conditional operator (||) - OR
+    result = (number1 > number2) || (number3 > number2)
+    println("(number1 > number2) || (number3 > number2): $result")
+}
